@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/roomNoTextView"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="病房编号"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/bedNoTextView"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="床位号"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/nurseNoTextView"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="看守护士工号"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="护士姓名"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/jobTextView"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="护士职位"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>
